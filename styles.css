@@ -1,0 +1,59 @@
+input.btn {
+    display:block;
+    padding:10px;
+	margin:5px;
+	float:left;
+    border-color:lime;
+	animation-name: transparency;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-timing-function:linear;
+}
+input {
+    border-style:dashed;
+    position:relative;
+    z-index:100;
+}
+h1 {
+	font-size: 8em;
+	margin: -.125em;
+	letter-spacing:-.125em;
+	animation-name:capitals;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+* {
+    color:lime;
+    font-family:lucida console;
+	animation-name:soothe;
+	animation-duration:20s;
+	animation-direction:alternate;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+}
+/* Keyframes */
+@keyframes transparency{
+	from {background-color:rgba(255,255,255,0);}
+	to {background-color:rgba(255,255,255,.1);}
+}
+
+@keyframes soothe{
+	0% {background-color:rgb(55,15,15);}
+	10% {background-color:rgb(45,25,15);}
+	20% {background-color:rgb(35,35,15);}
+	30% {background-color:rgb(25,45,15);}
+	40% {background-color:rgb(15,55,15);}
+	50% {background-color:rgb(15,45,25);}
+	60% {background-color:rgb(15,35,35);}
+	70% {background-color:rgb(15,25,45);}
+	80% {background-color:rgb(15,15,55);}
+	90% {background-color:rgb(25,15,45);}
+	100% {background-color:rgb(35,15,35);}
+}
+
+@keyframes capitals{
+	0% {text-transform:capitalize;letter-spacing:-.125em;}
+	50% {text-transform:uppercase;letter-spacing:-.1em;}
+	100% {text-transform:lowercase;letter-spacing:-.125em;}
+}
