@@ -17,7 +17,7 @@ input {
 }
 h1 {
 	font-size: 8em;
-	margin: -.125em;
+	margin: -.125em 0 -.125em -.125em;
 	letter-spacing:-.125em;
 	animation-name:capitals;
 	animation-duration:15s;
