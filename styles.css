@@ -1,31 +1,62 @@
 input.btn {
-    display:block;
-    padding:10px;
+	display:block;
+	padding:10px;
 	margin:5px;
 	float:left;
-    border-color:lime;
+	border-color:lime;	
+	border-style:dashed;
 	animation-name: transparency;
 	animation-duration:2s;
 	animation-iteration-count:infinite;
 	animation-direction:alternate;
 	animation-timing-function:linear;
 }
-input {
-    border-style:dashed;
-    position:relative;
-    z-index:100;
+
+input.btn:hover,input.btn:focus {
+	color:chartreuse;
 }
+
+div.row {
+	margin: 1em;
+}
+
+div#content {
+	text-align: center;
+}
+
+#content p {
+	font-size: 2em;
+}
+
+img {
+	width: 15em;
+	border-radius: 15em;
+	image-rendering: pixelated;
+}
+
 h1 {
 	font-size: 8em;
-	margin: -.125em 0 -.125em -.125em;
+	margin: -.125em 0 -.125em 0;
 	letter-spacing:-.125em;
 	animation-name:capitals;
 	animation-duration:15s;
 	animation-iteration-count:infinite;
 }
-* {
-    color:lime;
-    font-family:lucida console;
+
+h2 {
+	font-weight: bold;
+	animation-name:capitals;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+
+body.green {
+	color:lime;
+	background-color: transparent;
+	font-family:lucida console;
+}
+
+html {
 	animation-name:soothe;
 	animation-duration:20s;
 	animation-direction:alternate;
