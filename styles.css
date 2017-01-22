@@ -1,7 +1,6 @@
 input.btn {
-	display:block;
-	padding:10px;
-	margin:5px;
+	padding:.75em;
+	margin:.5em;
 	float:left;
 	border-color:lime;	
 	border-style:dashed;
@@ -25,7 +24,7 @@ div#content {
 }
 
 #content p {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 img {
@@ -45,6 +44,7 @@ h1 {
 
 h2 {
 	font-weight: bold;
+	border-bottom: lime .125em dashed;
 	animation-name:capitals;
 	animation-duration:15s;
 	animation-iteration-count:infinite;
