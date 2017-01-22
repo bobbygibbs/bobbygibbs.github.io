@@ -1,7 +1,6 @@
 input.btn {
 	padding:.75em;
 	margin:.5em;
-	float:left;
 	border-color:lime;	
 	border-style:dashed;
 	animation-name: transparency;
@@ -15,11 +14,7 @@ input.btn:hover,input.btn:focus {
 	color:chartreuse;
 }
 
-div.row {
-	margin: 1em;
-}
-
-div#content {
+div#content, div.navbar {
 	text-align: center;
 }
 
@@ -34,6 +29,7 @@ img {
 }
 
 h1 {
+	text-align: center;
 	font-size: 8em;
 	margin: -.125em 0 -.125em 0;
 	letter-spacing:-.125em;
