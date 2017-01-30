@@ -53,13 +53,13 @@ h2 {
 	animation-iteration-count:infinite;
 }
 
-body.green {
+div.green {
 	color:lime;
 	background-color: transparent;
 	font-family:lucida console;
 }
 
-html {
+body {
 	animation-name:soothe;
 	animation-duration:20s;
 	animation-direction:alternate;
