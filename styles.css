@@ -56,7 +56,7 @@ h2 {
 div.green {
 	color:lime;
 	background-color: transparent;
-	font-family:lucida console;
+	font-family:lucida console, courier new;
 }
 
 body {
